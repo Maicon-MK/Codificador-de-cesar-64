@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificar.</title>
+    <script defer src="dec.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Codificador</h1>
+
+    <h3> Cifra de Cesar - Base 64 </h3>
+    <!--flexbox?-->
+    <div class="selecaofunc">
+        <!--TEXTUSERe-->
+        <!--Entrada do usuario-->
+        <input type="text" id="textusere" name="Name" /><br>
+        <!--NUMERO-->
+        <!--seleção de numero em escala para cod-->
+        <input class="numero" id="numero"type="number"><br>
+
+        <!--SELECAO-->
+        <input type="radio" id="crip" name="metodo" value="met1">
+        <label class="selecao" for="descr">Criptografar</label>
+
+        <!--SELECAO-->
+        <input type="radio" id="descr" name="metodo" value="met1">
+        <label class="selecao" for="met1">Descriptografar</label>
+
+        <!--selecfunc-->
+        <select class="selecfunc" id="selecfunc"> 
+            <option disabled selected>Selecione</option>
+            <option value="0">Base64</option>
+            <option value="1">Cifra de Cesar</option>
+        </select>      
+
+            <!--TEXTUSERs-->
+            <!--Sainda do usuario-->
+              <input type="text" id="saida"  name="Name" />
+            <button id="botao" onclick="">Clique aqui!</button>
+    </div>
+
+
+</body>
+
+</html>
