@@ -12,7 +12,7 @@ var botao = document.getElementById('botao')
 
 botao.addEventListener('click', function () {
     var valor = textusere.value
-
+    
 
     if (crip.checked) {
 
